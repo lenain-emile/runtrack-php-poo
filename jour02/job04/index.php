@@ -32,10 +32,10 @@ class Student {
     }
 
     public function studentInfo() {
-        echo "🎓 Étudiant : {$this->prenom} {$this->nom}\n";
-        echo "📌 Numéro : {$this->numEtudiant}\n";
-        echo "📚 Crédits : {$this->credits}\n";
-        echo "🏆 Niveau : {$this->level}\n\n";
+        echo " Étudiant : {$this->prenom} {$this->nom}\n";
+        echo " Numéro : {$this->numEtudiant}\n";
+        echo " Crédits : {$this->credits}\n";
+        echo " Niveau : {$this->level}\n\n";
     }
 }
 
